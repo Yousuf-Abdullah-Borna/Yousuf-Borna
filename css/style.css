@@ -32,6 +32,21 @@ body {
     padding: 18px 30px;
     text-decoration: none;
   }
+
+  .navbar a img{
+
+      height: 40px;
+      width: 40px;
+  }
+
+  .navbar .social-media {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 30px;
+    text-decoration: none;
+  }
   
 
   
