@@ -9,12 +9,38 @@ body {
     text-align: center;
     background: #1abc9c;
     color: white;
+    border: 1px solid black;
+    overflow: hidden;
+    
   }
   
   /* Increase the font size of the h1 element */
   .intro h1 {
     font-size: 40px;
   }
+
+  /* Introduction quote*/
+  .intro #quote{
+
+    height: 200px;
+    width: 500px;
+    border:1px solid black;
+    float:left;
+    overflow: hidden;
+    margin-left: 160px;
+  }
+
+  .intro #image{
+
+    height: 200px;
+    width: 200px;
+    border:1px solid black;
+    float:right;
+    margin-right: 360px;
+    border-radius: 100%;
+  }
+
+
   
   /* Style the top navigation bar */
   .navbar {
@@ -33,11 +59,7 @@ body {
     text-decoration: none;
   }
 
-  .navbar a img{
-
-      height: 40px;
-      width: 40px;
-  }
+  
 
   .navbar .social-media {
     float: left;
@@ -54,4 +76,18 @@ body {
   .navbar a:hover {
     background-color: #ddd;
     color: black;
+  }
+
+
+
+  /* About me section */
+
+  #aboutMe{
+
+    padding: 80px;
+    text-align: center;
+    background: #B73225;
+    color: white;
+    border: 1px solid black;
+    clear: both;
   }
