@@ -136,7 +136,7 @@ body {
   #skills .flex-container > div {
     background-color: #f1f1f1;
     width: 200px;
-    height: 200px;
+    height: 300px;
     margin: 10px;
     text-align: center;
     line-height: 75px;
@@ -152,3 +152,20 @@ body {
     margin-top: 5px;
     
   }
+
+  #skills .container {
+    width: 170px;
+    background-color: #ddd;
+    height: 20px;
+    margin: 10px;
+    border-radius: 3px;
+  }
+  
+  #skills .skillset {
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+  }
+
+  #skills .html {width: 90%; background-color: #04AA6D; height:10px; border-radius: 3px;}
