@@ -84,7 +84,42 @@ body {
 
   #aboutMe{
 
-    padding: 80px;
+    padding: 20px;
+    text-align: center;
+    background: #B73225;
+    color: white;
+    border: 1px solid black;
+    clear: both;
+  }
+
+  #aboutMe #aboutMe-details{
+
+    overflow: hidden;
+
+  }
+
+  #aboutMe #aboutMe-information{
+
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    float:left;
+    margin-left: 130px;
+  }
+
+  #aboutMe #aboutMe-Image{
+
+    height: 400px;
+    width: 300px;
+    border: 1px solid black;
+    float: right;
+    margin-right: 330px;
+  }
+
+
+  #skills{
+
+    padding: 20px;
     text-align: center;
     background: #B73225;
     color: white;
