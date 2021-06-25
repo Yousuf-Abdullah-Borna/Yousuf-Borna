@@ -9,7 +9,7 @@ body {
     text-align: center;
     background: #1abc9c;
     color: white;
-    border: 1px solid black;
+   
     overflow: hidden;
     
   }
@@ -24,7 +24,7 @@ body {
 
     height: 200px;
     width: 500px;
-    border:1px solid black;
+    
     float:left;
     overflow: hidden;
     margin-left: 160px;
@@ -34,10 +34,18 @@ body {
 
     height: 200px;
     width: 200px;
-    border:1px solid black;
+    
     float:right;
     margin-right: 360px;
     border-radius: 100%;
+  }
+
+  .intro #image img{
+
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+      
   }
 
 
@@ -109,11 +117,19 @@ body {
 
   #aboutMe #aboutMe-Image{
 
-    height: 400px;
-    width: 300px;
-    border: 1px solid black;
+    height: 500px;
+    width: 400px;
+    
     float: right;
     margin-right: 330px;
+    border-radius: 5px;
+  }
+
+  #aboutMe #aboutMe-Image img {
+
+    height: 500px;
+    width: 400px;
+    border-radius: 5px;
   }
 
 
@@ -123,7 +139,7 @@ body {
     text-align: center;
     background: #B73225;
     color: white;
-    border: 1px solid black;
+    
     clear: both;
   }
 
@@ -141,16 +157,29 @@ body {
     text-align: center;
     line-height: 75px;
     color: #333;
+    border-radius: 10px;
   }
+
+  
+
+
+
 
   #skills .flex-container > div .tech_Image{
 
-    border: 1px solid black;
-    width:80px;
-    height:80px;
+    
+    width:100px;
+    height:100px;
     margin-left: 54px;
     margin-top: 5px;
     
+  }
+
+  #skills .flex-container > div .tech_Image img {
+
+    width:100px;
+    height:100px;
+
   }
 
   #skills .container {
@@ -169,6 +198,28 @@ body {
   }
 
   #skills .html {width: 90%; background-color: #04AA6D; height:10px; border-radius: 3px;}
+
+  #skills .css {width: 90%; background-color: #04AA6D; height:10px; border-radius: 3px;}
+
+  #skills .js {width: 90%; background-color: #04AA6D; height:10px; border-radius: 3px;}
+
+  #skills .java {width: 90%; background-color: #04AA6D; height:10px; border-radius: 3px;}
+
+  #skills .angular {width: 75%; background-color: #04AA6D; height:10px; border-radius: 3px;}
+
+  #skills .node {width: 55%; background-color: #04AA6D; height:10px; border-radius: 3px;}
+
+  #skills .sql_server {width: 75%; background-color: #04AA6D; height:10px; border-radius: 3px;}
+
+  #skills .linux {width: 65%; background-color: #04AA6D; height:10px; border-radius: 3px;}
+
+  #skills .nginx {width: 65%; background-color: #04AA6D; height:10px; border-radius: 3px;}
+
+  #skills .bootstrap {width: 85%; background-color: #04AA6D; height:10px; border-radius: 3px;}
+
+  #skills .github {width: 65%; background-color: #04AA6D; height:10px; border-radius: 3px;}
+
+  #skills .azure {width: 85%; background-color: #04AA6D; height:10px; border-radius: 3px;}
 
 
 
