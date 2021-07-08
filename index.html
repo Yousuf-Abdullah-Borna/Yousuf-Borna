@@ -11,7 +11,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
+  <link rel="stylesheet" href="./css/style.css"/>
 
   <!-- AWESOME FONTS-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
@@ -31,7 +31,7 @@
 </head>
 <body>
 
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top ">
     
     <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
@@ -39,35 +39,46 @@
     <div class="collapse navbar-collapse " id="collapsibleNavbar">
       <ul class="navbar-nav  ml-auto">
         <li class="nav-item">
-          <a class="nav-link text-white " href="#">About Me</a>
+          <a class="nav-link text-white " href="#about-me"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+          </svg> About Me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white " href="#">Skills</a>
+          <a class="nav-link text-white " href="#skills"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tools" viewBox="0 0 16 16">
+            <path d="M1 0 0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.356 3.356a1 1 0 0 0 1.414 0l1.586-1.586a1 1 0 0 0 0-1.414l-3.356-3.356a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3c0-.269-.035-.53-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814L1 0zm9.646 10.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708zM3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026L3 11z"/>
+          </svg></i> Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white  " href="#">Projects</a>
+          <a class="nav-link text-white  " href="#projects"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-folder2" viewBox="0 0 16 16">
+            <path d="M1 3.5A1.5 1.5 0 0 1 2.5 2h2.764c.958 0 1.76.56 2.311 1.184C7.985 3.648 8.48 4 9 4h4.5A1.5 1.5 0 0 1 15 5.5v7a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 1 12.5v-9zM2.5 3a.5.5 0 0 0-.5.5V6h12v-.5a.5.5 0 0 0-.5-.5H9c-.964 0-1.71-.629-2.174-1.154C6.374 3.334 5.82 3 5.264 3H2.5zM14 7H2v5.5a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5V7z"/>
+          </svg> Projects</a>
         </li> 
         <li class="nav-item">
-          <a class="nav-link text-white " href="#">Contacts</a>
+          <a class="nav-link text-white " href="#contact"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+          </svg> Contacts</a>
         </li>    
       </ul>
     </div>  
   </nav>
 
   <div class="jumbotron text-center " style="margin-bottom:0">
-    <img src="./img/intro.jpg" class="img-thumbnail" alt="Cinque Terre" width="204" height="136">
+    <img src="./img/intro.jpg" class="img-thumbnail my-4" alt="Cinque Terre" width="204" height="136">
     <h1 class="display-3">Hi! I am Yousuf Borna</h1>
     <p class="display-4">Full Stack Developer</p> 
-    <a href="./files/Yousuf Abdullah Borna, Resume.pdf" class=" btn btn-lg btn-outline-dark" download><i class="fas fa-cloud-download-alt fa-lg"></i>RESUME</a>
+    <a href="./files/Yousuf Abdullah Borna, Resume.pdf" class=" btn btn-lg btn-outline-dark" download><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-pdf-fill" viewBox="0 0 16 16">
+      <path d="M5.523 12.424c.14-.082.293-.162.459-.238a7.878 7.878 0 0 1-.45.606c-.28.337-.498.516-.635.572a.266.266 0 0 1-.035.012.282.282 0 0 1-.026-.044c-.056-.11-.054-.216.04-.36.106-.165.319-.354.647-.548zm2.455-1.647c-.119.025-.237.05-.356.078a21.148 21.148 0 0 0 .5-1.05 12.045 12.045 0 0 0 .51.858c-.217.032-.436.07-.654.114zm2.525.939a3.881 3.881 0 0 1-.435-.41c.228.005.434.022.612.054.317.057.466.147.518.209a.095.095 0 0 1 .026.064.436.436 0 0 1-.06.2.307.307 0 0 1-.094.124.107.107 0 0 1-.069.015c-.09-.003-.258-.066-.498-.256zM8.278 6.97c-.04.244-.108.524-.2.829a4.86 4.86 0 0 1-.089-.346c-.076-.353-.087-.63-.046-.822.038-.177.11-.248.196-.283a.517.517 0 0 1 .145-.04c.013.03.028.092.032.198.005.122-.007.277-.038.465z"/>
+      <path fill-rule="evenodd" d="M4 0h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2zm5.5 1.5v2a1 1 0 0 0 1 1h2l-3-3zM4.165 13.668c.09.18.23.343.438.419.207.075.412.04.58-.03.318-.13.635-.436.926-.786.333-.401.683-.927 1.021-1.51a11.651 11.651 0 0 1 1.997-.406c.3.383.61.713.91.95.28.22.603.403.934.417a.856.856 0 0 0 .51-.138c.155-.101.27-.247.354-.416.09-.181.145-.37.138-.563a.844.844 0 0 0-.2-.518c-.226-.27-.596-.4-.96-.465a5.76 5.76 0 0 0-1.335-.05 10.954 10.954 0 0 1-.98-1.686c.25-.66.437-1.284.52-1.794.036-.218.055-.426.048-.614a1.238 1.238 0 0 0-.127-.538.7.7 0 0 0-.477-.365c-.202-.043-.41 0-.601.077-.377.15-.576.47-.651.823-.073.34-.04.736.046 1.136.088.406.238.848.43 1.295a19.697 19.697 0 0 1-1.062 2.227 7.662 7.662 0 0 0-1.482.645c-.37.22-.699.48-.897.787-.21.326-.275.714-.08 1.103z"/>
+    </svg> RESUME</a>
   </div>
 
-  <div class="container-fluid text-center flex-nowrap  bg-info" style="margin-bottom:0;">
+  <div id="about-me" class="container-fluid text-center flex-nowrap  bg-info" style="margin-bottom:0;">
     
     <h1 class="display-4">About Me</h1>
 
     <div class="container  " >
       <div class="row ">
-        <div class="col-sm-7  text-white pt-5 ">
+        <div class="col-md-7  text-white pt-5 ">
                 <p>I fell in love with software development and technology at a very young age. I was first introduced to computer programming in
                 Grade 10 where I learnt about fundamentals of programming with Visual Basic. Later, I was introduced to Web programming which 
                 just amplied my interest level, by just realizing the impact and differences it could make in the world.</p><P> After the completion of my
@@ -81,7 +92,7 @@
                   </p>
                    
         </div>
-        <div class="col-sm-5 " style="height: 600px;">
+        <div class="col-md-5 " style="height: 600px;">
           <img src="./img/aboutme2.jpg" class="img-thumbnail my-5" alt="Cinque Terre" width="504" height="536">
           <figcaption class="figure-caption text-white">USS Midway Museum, San Diego</figcaption>
         </div>
@@ -91,7 +102,7 @@
   </div>
 
 
-  <div class="container-fluid text-center   bg-light" style="margin-bottom:0;">
+  <div id="skills" class="container-fluid text-center   bg-light" style="margin-bottom:0;">
     
     <h1 class="display-4">Skills</h1>
 
@@ -147,7 +158,7 @@
          <div class="col-3  text-center my-3" style="height: 150px; width: 290px;">
           
           
-          
+         
           <i class="fas fa-cloud fa-5x"></i>
           <p >Cloud Computing[Microsoft Azure]</p>
          </div>
@@ -157,7 +168,7 @@
      
   </div>
 
-  <div class="container-fluid text-center   bg-success" style="margin-bottom:0;">
+  <div id="projects" class="container-fluid text-center   bg-success" style="margin-bottom:0;">
     
     <h1 class="display-4">Projects</h1>
 
@@ -212,7 +223,7 @@
      
   </div>
 
-  <div class="container-fluid text-center   bg-light  " style="margin-bottom:0;">
+  <div  id="contact"class="container-fluid text-center   bg-light  " style="margin-bottom:0;">
     
     <h1 class="display-4">Contact</h1>
 
